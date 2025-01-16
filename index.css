@@ -2,6 +2,10 @@ body{
     margin: 0;
     padding: 0;
 }
+#header{
+    display: flex;
+    flex-direction: column;
+}
 @media (max-width:900px) {
     #header{
         width: 100%;
