@@ -68,7 +68,9 @@ body{
         width: 100%;
     }
     #copy3{
-        width: 80%;
+        width: 82%;
+        margin-left: 9%;
         height: 470px;
+        text-align: justify;
     }    
 }
