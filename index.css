@@ -60,10 +60,10 @@ body{
     width: 50%;
     margin-left: 10%;
     height: 560px;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.9rem;
 }
-@media (max-width:780px) {
+@media (max-width:750px) {
     #container{
         width: 100%;
     }
