@@ -34,6 +34,7 @@ body{
     font-family: Arial, sans-serif;   
     font-size: 2.2rem; 
     font-style: italic;
+    letter-spacing: -0.03rem;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -45,12 +46,12 @@ body{
     font-size: 1.5rem; 
     font-weight: bold;
     font-style: italic;
+    letter-spacing: -0.03rem;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 #mainbody1{
-    margin-bottom: 30px;
     background-image: url(./source/canvastage4.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,7 +60,7 @@ body{
 #copy3{
     width: 50%;
     margin-left: 10%;
-    height: 560px;
+    height: 600px;
     font-size: 1.15rem;
     line-height: 1.9rem;
 }
@@ -70,7 +71,7 @@ body{
     #copy3{
         width: 82%;
         margin-left: 9%;
-        height: 470px;
+        height: 360px;
         text-align: justify;
     }    
 }
