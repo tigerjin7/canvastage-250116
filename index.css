@@ -69,13 +69,13 @@ body{
     font-size: 1.4rem;
     line-height: 2.2rem;
 }
-#mainbody2, #mainbody3{
+#mainbody2, #mainbody4{
     padding-left: 6%;
     padding-right: 6%;
     margin-bottom: 1%;
     display: flex;
 }
-#copy4, #copy6{
+#copy4, #copy5{
     width: 35%;
     font-family: Arial, sans-serif;   
     font-size: 1.7rem; 
@@ -92,7 +92,7 @@ body{
     align-items: center;
     justify-content: right;
 }
-#copy5, #copy7{
+#mainbody3, #mainbody5{
     margin-bottom: 5%;
     padding-left: 6%;
     padding-right: 6%;
@@ -121,18 +121,18 @@ body{
         font-size: 1.1rem;
         line-height: 1.7rem;
     }
-    #mainbody2, #mainbody3{
+    #mainbody2, #mainbody4{
         padding-left: 4%;
         padding-right: 4%;
     }     
-    #copy4, #copy6{
+    #copy4, #copy5{
         width: 57%;
         font-size: 1.4rem; 
     }
     #source1, #source2{
         width: 43%;
     }
-    #copy5, #copy7{
+    #mainbody3, #mainbody5{
         padding-left: 4%;
         padding-right: 4%;
         font-size: 1.1rem;
