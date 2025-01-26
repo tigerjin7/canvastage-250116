@@ -56,7 +56,7 @@ body{
     justify-content: right;
 }
 #mainbody1{
-    margin-bottom: 3%;
+    margin-bottom: 1.5%;
     background-image: url(./source/canvastage4.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -67,18 +67,13 @@ body{
     width: 60%;
     height: 620px;
     font-size: 1.4rem;
-    line-height: 2.3rem;
+    line-height: 2.2rem;
 }
-#mainbody2, #mainbody3, #mainbody4, #mainbody5{
+#mainbody2, #mainbody3{
     padding-left: 6%;
     padding-right: 6%;
+    margin-bottom: 1%;
     display: flex;
-}
-#mainbody2{
-    margin-bottom: 1.5%;
-}
-#mainbody4{
-    margin-bottom: 1.5%;
 }
 #copy4, #copy6{
     width: 35%;
@@ -98,7 +93,9 @@ body{
     justify-content: right;
 }
 #copy5, #copy7{
-    margin-bottom: 1.5%;
+    margin-bottom: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
     font-size: 1.15rem;
     line-height: 1.9rem;
     text-align: justify;
@@ -113,15 +110,18 @@ body{
     #copy2{
         font-size: 1.4rem; 
     }
+    #mainbody1{
+        margin-bottom: 1%;
+    }
     #copy3{
         padding-left: 4%;
         width: 92%;
-        height: 330px;
+        height: 325px;
         text-align: justify;
         font-size: 1.1rem;
-        line-height: 1.8rem;
+        line-height: 1.7rem;
     }
-    #mainbody2, #mainbody3, #mainbody4, #mainbody5{
+    #mainbody2, #mainbody3{
         padding-left: 4%;
         padding-right: 4%;
     }     
@@ -133,7 +133,9 @@ body{
         width: 43%;
     }
     #copy5, #copy7{
+        padding-left: 4%;
+        padding-right: 4%;
         font-size: 1.1rem;
-        line-height: 1.8rem;
+        line-height: 1.7rem;
     }        
 }
