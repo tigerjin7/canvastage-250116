@@ -56,18 +56,18 @@ body{
     justify-content: right;
 }
 #mainbody1{
-    margin-bottom: 1.5%;
+    margin-bottom: 4%;
     background-image: url(./source/canvastage4.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 }
 #copy3{
     padding-left: 6%;
-    width: 60%;
-    height: 620px;
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+    width: 65%;
+    height: 550px;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
 }
 #mainbody2, #mainbody4{
     padding-left: 6%;
@@ -76,9 +76,9 @@ body{
     display: flex;
 }
 #copy4, #copy5{
-    width: 35%;
+    width: 40%;
     font-family: Arial, sans-serif;   
-    font-size: 1.7rem; 
+    font-size: 1.8rem; 
     font-weight: bold;
     font-style: italic;
     letter-spacing: -0.03rem;
@@ -87,17 +87,17 @@ body{
     justify-content: left;
 }
 #source1, #source2{
-    width: 65%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 #mainbody3, #mainbody5{
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     padding-left: 6%;
     padding-right: 6%;
-    font-size: 1.15rem;
-    line-height: 1.9rem;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
     text-align: justify;
 }
 @media (max-width:780px) {
@@ -111,31 +111,33 @@ body{
         font-size: 1.4rem; 
     }
     #mainbody1{
-        margin-bottom: 1%;
-    }
+        margin-bottom: 0.5%;
+        background-position: center;
+    }    
     #copy3{
         padding-left: 4%;
         width: 92%;
-        height: 325px;
+        height: 360px;
         text-align: justify;
-        font-size: 1.1rem;
-        line-height: 1.7rem;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
     }
     #mainbody2, #mainbody4{
         padding-left: 4%;
         padding-right: 4%;
     }     
     #copy4, #copy5{
-        width: 57%;
-        font-size: 1.4rem; 
+        width: 60%;
+        font-size: 1.5rem; 
     }
     #source1, #source2{
-        width: 43%;
+        width: 40%;
     }
     #mainbody3, #mainbody5{
         padding-left: 4%;
         padding-right: 4%;
-        font-size: 1.1rem;
-        line-height: 1.7rem;
+        margin-bottom: 9%;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
     }        
 }
