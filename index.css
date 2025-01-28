@@ -17,9 +17,7 @@ body{
     }
 }
 #container{
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 6%;
+    margin: 3%;
     margin-top: 3%;
     width: 760px;
     display: flex;
@@ -93,9 +91,8 @@ body{
     justify-content: right;
 }
 #mainbody3, #mainbody5{
-    margin-bottom: 7%;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding: 6%;
+    padding-top: 0;
     font-size: 1.3rem;
     line-height: 2.2rem;
     text-align: justify;
@@ -134,9 +131,9 @@ body{
         width: 40%;
     }
     #mainbody3, #mainbody5{
-        padding-left: 4%;
-        padding-right: 4%;
-        margin-bottom: 9%;
+        padding: 4%;
+        padding-top: 0;
+        padding-bottom: 6%;
         font-size: 1.2rem;
         line-height: 1.8rem;
     }        
